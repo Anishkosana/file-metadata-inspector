@@ -2,6 +2,7 @@ import os
 import time
 
 # The function that list all methods excluding dunder methods
+# This function is just to understand functions in os module
 def listing_out_methods(module):
     list_of_methods=[]
     for item in dir(module):
